@@ -1,4 +1,4 @@
-# boot_dev_poke_hack_sub_2022
+# boot_dev_poke_hack_sub_2022 (senior category)
 
 # Poke-Questionare
 
