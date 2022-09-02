@@ -17,10 +17,10 @@ def main():
             secondPokemon = pokepy.V2Client().get_pokemon(random.randint(1,500))
 
         if(question_type == "w"):
-            print(f"\nIs {firstPokemon.name} heavier than {secondPokemon.name}?")
+            print(f"\nIs {firstPokemon.name} heavier than {secondPokemon.name}?"  )
             bool = firstPokemon.weight > secondPokemon.weight
         else:
-            print(f"\nIs {firstPokemon.name} taller than {secondPokemon.name}?")
+            print(f"\nIs {firstPokemon.name} taller than {secondPokemon.name}?"   )
             bool = firstPokemon.height > secondPokemon.height
 
         user = input("\nEnter (y/n)  ")
